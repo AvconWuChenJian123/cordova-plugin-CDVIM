@@ -5,8 +5,12 @@
   "cordova": {
     "id": "cordova-plugin-IM",
     "platforms": [
-      "iOS"
+      "ios"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AvconWuChenJian123/cordova-plugin-CDVIM.git"
   },
   "keywords": [],
   "author": "wuchenjian",
