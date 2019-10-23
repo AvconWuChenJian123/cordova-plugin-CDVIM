@@ -1,0 +1,15 @@
+{
+ "name": "cordova-plugin-CDVIM",
+  "version": "1.0.1",
+  "description": "IM",
+  "cordova": {
+    "id": "cordova-plugin-IM",
+    "platforms": [
+      "iOS"
+    ]
+  },
+  "keywords": [],
+  "author": "wuchenjian",
+  "license": "MIT"
+}
+
