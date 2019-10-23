@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-IM" version="1.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>CDVIMFun</name>
+    <js-module name="CDVIMFun" src="www/CDVIMFun.js">
+        <clobbers target="cordova.plugins.CDVIMFun" />
+    </js-module>
+     <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="IMFun">
+               <param name="ios-package" value="CDVIMFun"/>
+            </feature>
+        </config-file>
+        <header-file src="src/ios/CDVIMFun.h" />
+        <source-file src="src/ios/CDVIMFun.m" /> 
+    </platform>
+</plugin>
