@@ -1,7 +1,7 @@
 {
- "name": "cordova-plugin-CDVIM",
+  "name": "cordova-plugin-IM",
   "version": "1.0.1",
-  "description": "IM",
+  "description": "Cordova IM Engine Plugin",
   "cordova": {
     "id": "cordova-plugin-IM",
     "platforms": [
@@ -12,8 +12,26 @@
     "type": "git",
     "url": "git+https://github.com/AvconWuChenJian123/cordova-plugin-CDVIM.git"
   },
-  "keywords": [],
-  "author": "wuchenjian",
-  "license": "MIT"
+  "keywords": [
+    "cordova",
+    "IM",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova-ios",
+      "version": ">=4.0.0-dev"
+    },
+    {
+      "name": "apple-ios",
+      "version": ">=9.0"
+    }
+  ],
+  "author": "",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/AvconWuChenJian123/cordova-plugin-CDVIM/issues"
+  },
+  "homepage": "https://github.com/AvconWuChenJian123/cordova-plugin-CDVIM#readme"
 }
-
