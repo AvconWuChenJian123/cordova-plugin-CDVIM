@@ -1,1 +1,1 @@
-# cordova-plugin-CDVIM
+# cordova-plugin-IM
